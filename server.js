@@ -29,4 +29,4 @@ app.get('/about',middleware.requireAuthentication, function(req,res){   //route 
 app.use(express.static(__dirname +'/public'));
 
 //console.log(__dirname);
-app.listen(3000);
+app.listen(PORT);
